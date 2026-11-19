@@ -32,6 +32,7 @@ public class EnquiryMailService {
                 .build();
     }
 
+    @SuppressWarnings("null")
     public void send(EnquiryRequest r) {
 
         Map<String, Object> email = new HashMap<>();
